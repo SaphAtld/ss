@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dream Modest</title>
+
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Shop.css">
+    <link rel="stylesheet" href="Checkout.css">
+</head>
+
+<body>
+
+<!--LOGIN PAGE-->
+
+<section id="Login" class="login-page">
+    <div class="login-box">
+        <h1>Dream Modest</h1>
+        <p>Simple. Modest. Beautiful.</p>
+        
+        <form action="#Home">
+            
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+
+            <label for="password">password:</label>
+            <input type="text" id="password" placeholder="Enter password" required>
+            
+            <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+<!--HOME PAGE-->
+
+<div id="Home">
+
+<!--HEADER-->
+
+<header>
+    
+    <div class="brand">
+  <img class="logo" src="logo.png">
+        <h1>Dream Modest</h1>
+        <p>Simple. Modest. Beautiful.</p>
+    </div>
+
+<!--NAVIGATION-->
+
+<nav>
+    <a href="#Home">Home</a>
+    <a href="#Shop">Shop</a>
+    <a href="#About">About Us</a>
+    <a href="#Comments">Comments</a>
+    <a href="#Checkout">Checkout</a>
+</nav>
+</header>
+
+<!--HERO-->
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Modest Looks for Every Day</h2>
+                <p>Discover simple and comfortable modest pieces made for everyday style.</p>
+                <a href="#Shop" class="hero-button">Shop Nows</a>
+            </div>
+        </section>
+
+<!--SEARCH-->
+
+<section class="search-section">
+    <h2>Find Your Favorite</h2>
+    <form>
+        <input type="search" placeholder="search products...">
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+<!--FEATURED PRODUCTS-->
+
+<section class="featured">
+    <h2>Featured Collection</h2>
+    <p class="section-intro">A few of our favorite modest pieces.</p>
+    
+    <div class="featured-grid">
+        
+        <div class="featured-card">
+            <img src="chiffon hijab.jpg">
+            <h3>Chiffon Hijab</h3>
+        </div>
+        
+        <div class="featured-card">
+            <img src="ribbed inner cap.jpg">
+            <h3>Inner Cap</h3>
+        </div>
+        
+        <div class="featured-card">
+            <img src="hijab pins.jpg">
+            <h3>Hijab Pins</h3>
+        </div>
+        
+        <div class="featured-card">
+            <img src="hijab magnets.jpg">
+            <h3>Hijab Magnets</h3>
+        </div>
+        
+        <div class="featured-card">
+            <img src="modest dress.jpg">
+            <h3>Modest Dress</h3>
+        </div>
+    </div>
+</section>
+
+<!--SHOP-->
+
+<section id="Shop" class="shop-section">
+    <h2>Our Shop</h2>
+    <p class="section-intro">Choose your favorite items</p>
+
+<!--CLASSIC HIJABS-->
+
+<h3 class="category-title">Classic Hijabs</h3>
+
+<div class="product-grid">
+    
+    <div class="product-card">
+        <img src="jersey hijab.jpg">
+        <h3>Jersey Hijab</h3>
+        <p>Soft and comfortable hijab for everyday wear.</p>
+        <p class="price">&#8369;219</p>
+        
+        <label for="jersey-color">Color:</label>
+        <select id="jersey-color">
+            <option>Black</option>
+            <option>Mocha</option>
+            <option>Beige</option>
+            <option>Dusty Pink</option>
+        </select>
+
+        <label for="jersey-quantity">Quantity:</label>
+        <input type="number"
+               id="jersey-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+    <div class="product-card">
+        <img src="cotton hijab.jpg">
+        <h3>Cotton Hijab</h3>
+        <p>Lightweight cotton hijab for a fresh everyday look.</p>
+        <p class="price">&#8369;189</p>
+                    
+        <label for="cotton-hijab-color">Color:</label>
+        <select id="cotton-hijab-color">
+            <option>White</option>
+            <option>Black</option>
+            <option>Brown</option>
+            <option>Sage Green</option>
+        </select>
+
+        <label for="cotton-hijab-quantity">Quantity:</label>
+        <input type="number"
+               id="cotton-hijab-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+<!--INNER CAPS-->
+
+<h3 class="category-title">Inner Caps</h3>
+
+<div class="product-card">
+        <img src="cotton inner cap.jpg">
+        <h3>Cotton Inner Cap</h3>
+        <p>comfortable inner cap for secure styling.</p>
+        <p class="price">&#8369;89</p>
+        
+        <label for="cotton-cap-color">Color:</label>
+        <select id="cotton-cap-color">
+            <option>Black</option>
+            <option>Beige</option>
+            <option>Brown</option>
+            <option>Cream</option>
+        </select>
+
+        <label for="cotton-cap-quantity">Quantity:</label>
+        <input type="number"
+               id="cotton-cap-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+    <div class="product-card">
+        <img src="tube inner caps.jpg">
+        <h3>Tube Inner Cap</h3>
+        <p>Stretchable inner cap that stays comfortable all day.</p>
+        <p class="price">&#8369;79</p>
+        
+        <label for="tube-cap-color">Color:</label>
+        <select id="tube-cap-color">
+            <option>Black</option>
+            <option>White</option>
+            <option>Mocha</option>
+            <option>Beige</option>
+        </select>
+
+        <label for="tube-cap-quantity">Quantity:</label>
+        <input type="number"
+               id="tube-cap-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+<!--HIJAB PINS-->
+
+<h3 class="category-title">Hijab Pins</h3>
+
+<div class="product-grid">
+    
+    <div class="product-card">
+        <img src="straight hijab pins.jpg">
+        <h3>Straight Hijab Pins</h3>
+        <p>Simple pins for neat and secure hijab styling.</p>
+        <p class="price">&#8369;59</p>
+        
+        <label for="straight-pin-color">Color:</label>
+        <select id="straight-pin-color">
+            <option>Silver</option>
+            <option>Gold</option>
+            <option>Rose Gold</option>
+            <option>Black</option>
+        </select>
+
+        <label for="straight-pin-quantity">Quantity:</label>
+        <input type="number"
+               id="straight-pin-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+    <div class="product-card">
+        <img src="gold hijab pins.jpg">
+        <h3>Gold Hijab Pins</h3>
+        <p>Elegant gold pins for a simple polished look.</p>
+        <p class="price">&#8369;69</p>
+        
+        <label for="gold-pin-coclor">Color:</label>
+        <select id="gold-pin-coclor">
+            <option>Silver</option>
+            <option>Gold</option>
+            <option>Rose Gold</option>
+        </select>
+
+        <label for="gold-pin-quantity">Quantity:</label>
+        <input type="number"
+               id="gold-pin-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+<!--HIJAB MAGNETS-->
+
+<h3 class="category-title">Hijab Magnets</h3>
+
+<div class="product-grid">
+
+    <div class="product-card">
+        <img src="mini hijab magnets.jpg">
+        <h3>Mini Hijab Magnets</h3>
+        <p>small and easy-to-use magnets for a secure styling.</p>
+        <p class="price">&#8369;79</p>
+        
+        <label for="mini-magnet-color">Color:</label>
+        <select id="mini-magnet-color">
+            <option>Black</option>
+            <option>Gold</option>
+            <option>Rose Gold</option>
+            <option>Silver</option>
+        </select>
+
+        <label for="mini-magnet-quantity">Quantity:</label>
+        <input type="number"
+               id="mini-magnet-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+
+    <div class="product-card">
+        <img src="square hijab magnets.jpg">
+        <h3>Square Hijab Magnets</h3>
+        <p>Stylish square magnets made for easy hijab styling.</p>
+        <p class="price">&#8369;89</p>
+        
+        <label for="square-magnet-color">Color:</label>
+        <select id="square-magnet-color">
+            <option>Black</option>
+            <option>Gold</option>
+            <option>Rose Gold</option>
+            <option>Silver</option>
+        </select>
+
+        <label for="square-magnet-quantity">Quantity:</label>
+        <input type="number"
+               id="square-magnet-quantity"
+               min="1"
+               value="1">
+
+        <label class="cart-optiion">
+        <input type="checkbox">Add to Cart</label>
+    </div>
+                                                                                                                                                                               -->
+
+</div>
+
+
+
+
+
+                    
+            </div>
+
+        </section>
+    </div>
+    
+</body>
+</html>

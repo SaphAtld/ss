@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <!-- HEADER -->
+<header>
+
+  
+  <div class="brand">
+  <img class="logo" src="logo.png">
+    
+    <h1>Dream Modest</h1>
+    <p>Simple. Modest. Beautiful.</p>
+  </div>
+
+<!-- NAVIGATION -->
+<nav>
+<a href="home.html">Home</a>
+<a href="shop.html">Shop</a>
+<a href="aboutus.html">About Us</a>
+<a href="Comment.html">Comments</a>
+<a href="checkout.html">Checkout</a>
+</nav>
+</header>
+
+
+<!-- HERO -->
+  <section class="hero">
+
+            <div class="hero-content">
+
+                <h2>Modest Looks for Every Day</h2>
+
+                <p>
+                    Discover simple and comfortable modest pieces
+                    made for everyday style.
+                </p>
+
+                <a href="shop.html" class="hero-button">Shop Now</a>
+                <button  class="hero-button" onclick="document.getElementById('modestDialog').showModal()">
+                    Welcome to Dream Modest
+                </button>
+    
+
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH -->
+        <section class="search-section">
+
+            <h2>Find Your Favorite</h2>
+
+            <form>
+                <input type="search" placeholder="Search products...">
+                <button type="submit">Search</button>
+            </form>
+
+        </section>
+
+
+        <!-- FEATURED PRODUCTS -->
+        <section class="featured">
+
+            <h2>Featured Collection</h2>
+
+            <p class="section-intro">
+                A few of our favorite modest pieces.
+            </p>
+
+            <div class="featured-grid">
+
+                <div class="featured-card">
+                    <img src="Chiffon hijab.jpg" alt="Chiffon Hijab">
+                    <h3>Chiffon Hijab</h3>
+                    
+                </div>
+
+                <div class="featured-card">
+                    <img src="Ribbed inner cap.jpg" alt="Inner Cap">
+                    <h3>Inner Cap</h3>
+                    
+                </div>
+
+                <div class="featured-card">
+                    <img src="hijab pins.jpg" alt="Hijab Pins">
+                    <h3>Hijab Pins</h3>
+                    
+                </div>
+
+                <div class="featured-card">
+                    <img src="Hijab magnets.jpg" alt="Hijab Magnets">
+                    <h3>Hijab Magnets</h3>
+                    
+                </div>
+
+                <div class="featured-card">
+                    <img src="Simple abaya.jpg" alt="Simple Abaya">
+                    <h3>Simple Abaya</h3>
+                    
+                </div>
+
+                <div class="featured-card">
+                    <img src="Modest dress.jpg" alt="Modest Dress">
+                    <h3>Modest Dress</h3>
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <dialog id="modestDialog"class="modal">
+            <div class="modal-content">
+                <h1>DREAM MODEST</h1>
+                    <p class="modal desc">Welcome to Dream Modest dear customer, take your time to explore and enjoy the services we provide we hope you find your favorite peices that boost your confidence! </p>
+            <form method="dialog">
+                <button class="close-btn">See you!</button>
+            </form>
+
+            </div>
+        </dialog>
+    
+</body>
+</html>

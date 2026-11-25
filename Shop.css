@@ -1,0 +1,176 @@
+/* SHOP */
+
+.shop-section {
+    background-color: #f5eadc;
+}
+
+.category-title {
+    text-align: center;
+
+    color: #76533d;
+
+    margin-top: 50px;
+
+    margin-bottom: 20px;
+
+    font-size: 24px;
+}
+#h2{
+    text-align: center;
+}
+
+
+/* PRODUCT GRID */
+
+.product-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+
+/* PRODUCT CARD */
+
+.product-card {
+    background-color: #fffaf2;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(80, 55, 35, 0.12);
+}
+
+.product-card img {
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    margin: 8px 0;
+
+    color: #5b3a29;
+}
+
+.product-card p {
+    color: #80634f;
+}
+
+.product-card .price {
+    color: #76533d;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin: 12px 0;
+}
+
+
+/* PRODUCT OPTIONS */
+
+.product-card label {
+    display: block;
+
+    margin-top: 12px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+    color: #5b3a29;
+}
+
+.product-card select,
+.product-card input[type="number"] {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #cbb59f;
+
+    border-radius: 7px;
+
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* ADD TO CART */
+
+.product-card .cart-option {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 15px;
+
+    padding: 10px;
+
+    background-color: #ead8c3;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+.product-card .cart-option input {
+    width: 18px;
+
+    height: 18px;
+}
+
+
+/* CHECKOUT LINK */
+
+.checkout-link {
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.checkout-link a {
+    display: inline-block;
+
+    background-color: #6e3f22;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 13px 25px;
+
+    border-radius: 8px;
+}
+
+.checkout-link a:hover {
+    background-color: #5b3a29;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
